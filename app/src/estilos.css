@@ -1,0 +1,86 @@
+html{
+    background-color: #f3f3f3;
+}
+
+nav{
+    background-color: #010716f1;
+    height: 70px;
+}
+
+.navSecundario{
+    background-color: #f54748;
+    height: 40px;
+}
+
+ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+a{
+    padding: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-size: larger;
+}
+
+.aDos{
+    padding: 15px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.aDos:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    position: fixed;
+    left: 12px;
+    padding: 2.5px;
+    width: 115px;
+    height: 115px;
+    border-radius: 100px;
+}
+
+.imgEcommerce{
+    position: relative;
+    top: 40px;
+    left: 400px;
+}
+
+.tituloPrincipal{
+    font-size: 30px;
+    position: relative;
+    left: 550px;
+}
+
+.container{
+    top: 75px;
+    position: relative;
+    background-color: #010716f1;
+    width: 1885px;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.containerHijo{
+    padding: 10px;
+}
+
+.imagenesContainer{
+    width: 350px;
+    height: 350px;
+}
+
+h3{
+    text-align: center;
+    color: #f3f3f3;
+}
