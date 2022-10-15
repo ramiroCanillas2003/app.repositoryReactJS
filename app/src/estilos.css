@@ -5,6 +5,7 @@ html{
 nav{
     background-color: #010716f1;
     height: 70px;
+    
 }
 
 .navSecundario{
@@ -41,18 +42,27 @@ a:hover{
 
 .logo{
     position: fixed;
+    top: 155px;
     left: 12px;
-    padding: 2.5px;
-    width: 115px;
+    padding: 10px;
+    width: 125px;
     height: 115px;
     border-radius: 100px;
+    background-color: white;
 }
 
 .imgEcommerce{
     position: relative;
     top: 40px;
-    left: 400px;
+    left: 180px;
+    width: 1500px;
+    height: 700px;
 }
+
+.imgEcommerce:hover{
+    transform: scale(1.1);
+}
+
 
 .tituloPrincipal{
     font-size: 30px;
@@ -78,9 +88,62 @@ a:hover{
 .imagenesContainer{
     width: 350px;
     height: 350px;
+    border-radius: 400px;
+}
+
+.imagenesContainer:hover{
+    filter: opacity(.5);
+}
+
+.tituloApple{
+    text-align: center;
+    font-family: monospace;
+    font-size: 85px;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #f54748 #f54748;
+    box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
+    width: 750px;
+    position: relative;
+    left: 550px;
+    color: #f3f3f3;
+    border-radius: 500px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 41%, rgba(255,68,85,1) 100%, rgba(0,212,255,1) 100%);
 }
 
 h3{
     text-align: center;
     color: #f3f3f3;
 }
+
+.containerArticle{
+    padding: 25px;
+    top: 115px;
+    position: relative;
+    background-color: #c4c4c4;
+    width: 1836px;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    text-align: center;
+    background-color: #f54748;
+    width: 170px;
+    padding: 10px;
+    border-radius: 500px;
+}
+
+h3:hover{
+    text-decoration: overline;
+}
+
+.copyright{
+    text-align: center;
+    background-color: #010716f1;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
