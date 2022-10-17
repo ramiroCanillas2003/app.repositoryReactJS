@@ -1,9 +1,12 @@
 import React from "react";
 
-function Article() {
+function Article(prop) {
     
+    const infoAdicional = prop.frase ;
+
     return (
         <>
+            <a href="https://www.lipsum.com/" className="infoAdicional"><p>{infoAdicional}</p></a>
             <article id="article" className="articlePrincipal">
             <div className="containerArticle">
                 <div className="containerHijo">
@@ -23,7 +26,7 @@ function Article() {
 
                 <div className="containerHijo">
                     <h3>Garantías</h3>
-                    <img className="imagenesContainer" src="https://www.soydemac.com/wp-content/uploads/2018/11/applecare.png"></img>
+                    <img className="imagenesContainer" src="https://cdn-icons-png.flaticon.com/512/57/57584.png"></img>
                 </div>        
             </div>
             </article>

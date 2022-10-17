@@ -12,7 +12,9 @@ function App() {
         <>  
             <Nabvar/>
             <Section/>
-            <Article/>
+            <Article
+                frase="Conoce aún más"
+            />
             <Footer/>
         </>
     )

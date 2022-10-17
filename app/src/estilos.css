@@ -147,3 +147,11 @@ h3:hover{
     padding: 10px;
 }
 
+.infoAdicional{
+    background-color: #f3f3f3;
+    color: black;
+    width: 200px;
+    position: relative;
+    text-align: center;
+    top: 95px;
+}
