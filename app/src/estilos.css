@@ -5,7 +5,6 @@ html{
 nav{
     background-color: #010716f1;
     height: 70px;
-    
 }
 
 .navSecundario{
@@ -25,7 +24,7 @@ a{
     text-decoration: none;
     color: white;
     font-family: monospace;
-    font-size: larger;
+    font-size: large;
 }
 
 .aDos{
@@ -42,7 +41,7 @@ a:hover{
 
 .logo{
     position: fixed;
-    top: 155px;
+    top: 195px;
     left: 12px;
     padding: 10px;
     width: 125px;
@@ -155,3 +154,57 @@ h3:hover{
     text-align: center;
     top: 95px;
 }
+
+.carrito{
+    background-color: #ffffff;
+    color: black;
+    height: 15px;
+    width: 90px;
+    border-radius: 200px;
+    position: relative;
+    top: 3px;
+}
+
+.carrito:hover{
+    background-color: #f54748;
+}
+
+.divCatalogo{
+    margin: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carta{
+    background-color: black;
+    height: 550px;
+    width: 550px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.iphone13{
+    width: 400px;
+    height: 450px;
+    position: relative;
+    left: 75px;
+}
+
+.titulosCartas{
+    background-color: #8f8f8f;
+    font-family: fantasy;
+    text-align: center;
+    position: relative;
+    left: 50px;
+}
+
+.titulosPrecios{
+    background-color: #c4c4c4;
+    font-family: fantasy;
+    position: relative;
+    left: 320px;
+    top: -72px;
+}
+

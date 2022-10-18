@@ -4,9 +4,9 @@ function Section() {
 
     return (
         <>
-            <h2 className="tituloApple">Apple Store</h2>
+            <h2 id="sobre-nosotros" className="tituloApple">Apple Store</h2>
 
-            <div id="sobre-nosotros">
+            <div>
                 <img className="imgEcommerce" src="https://www.iplacecorp.com.uy/wp-content/uploads/1-removebg.png"></img>
             </div>
 
