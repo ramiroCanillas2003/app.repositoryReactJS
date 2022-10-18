@@ -14,9 +14,10 @@ function App() {
         <>  
             <Nabvar/>
             <Section/>
-            <Article
-                frase="Conoce aún más"
+            <Article 
+            frase="Conoce aún más"
             />
+            
             <Catalogo/>
             <Footer/>
         </>

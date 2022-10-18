@@ -205,6 +205,44 @@ h3:hover{
     font-family: fantasy;
     position: relative;
     left: 320px;
-    top: -72px;
+    top: -80px;
 }
 
+.titulosPrecios12{
+    background-color: #c4c4c4;
+    font-family: fantasy;
+    position: relative;
+    left: 320px;
+    top: -61px;
+}
+
+.agregarCarrito{
+    padding: 2px ;
+    border-radius: 25px;
+    background-color: #f54748;
+}
+
+.redesSociales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloRedes{
+    background-color: #010716f1;
+    font-family: monospace;
+    width: 500px;
+    position: relative;
+    left: 657px;
+}
+
+.redesFooter{
+    background-color: #8f8f8f;
+    padding: 5px;
+    margin: 7px;
+}
+
+.footer{
+    background-color: #c4c4c4;
+    padding: 25px;
+}

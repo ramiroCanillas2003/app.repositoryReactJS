@@ -21,7 +21,7 @@ function NavBar() {
                         <a id="home" href="#home"><ImHome/> Home</a>
                         <a id="quienes-somos" href="#article"><ImBook/> Productos</a>
                         <a id="" href="#sobre-nosotros"><ImParagraphCenter/> Información</a>
-                        <a className="carrito" href=""><ImCart/> Carrito</a>
+                        <a className="carrito" href="#carrito"><ImCart/> Carrito</a>
                     </li>
                 </ul>
             </nav>
