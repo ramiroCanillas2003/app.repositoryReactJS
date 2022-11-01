@@ -1,17 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function Section() {
+function Home() {
 
     return (
         <>
-            <h2 id="sobre-nosotros" className="tituloApple">Apple Store</h2>
+            <a to="home">
+                <h2 id="sobre-nosotros" className="tituloApple">Apple Store</h2>
+            </a>
 
             <div>
                 <img className="imgEcommerce" src="https://www.iplacecorp.com.uy/wp-content/uploads/1-removebg.png"></img>
             </div>
 
             <div className="container">
-                <div className="containerHijo">
+                <div id="sectionUno" className="containerHijo">
                     <h3>Envíos</h3>
                     <img className="imagenesContainer" src="https://tuquejasuma.com/media/images/entity253_square_7PcGqJE.jpeg"></img>
                 </div>
@@ -30,4 +33,4 @@ function Section() {
     )
 }
 
-export default Section
+export default Home

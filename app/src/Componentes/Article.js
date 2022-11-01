@@ -9,7 +9,7 @@ function Article(prop) {
         <>
             <a href="https://www.lipsum.com/" className="infoAdicional"><p><VscFile/> {infoAdicional}</p></a>
             <article id="article" className="articlePrincipal">
-            <div className="containerArticle">
+            <div id="containerArticle" className="containerArticle">
                 <div className="containerHijo">
                     <h3>Variedad en Productos</h3>
                     <img className="imagenesContainer" src="https://d500.epimg.net/cincodias/imagenes/2019/09/10/smartphones/1568121499_490816_1568143364_sumario_normal.jpg"></img>

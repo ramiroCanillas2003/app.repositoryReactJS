@@ -183,6 +183,7 @@ h3:hover{
     margin: 10px;
     padding: 10px;
     border-radius: 100px;
+    cursor: auto;
 }
 
 .iphone13{
@@ -216,11 +217,12 @@ h3:hover{
     top: -61px;
 }
 
-.agregarCarrito{
+.verMas{
     padding: 2px ;
     border-radius: 25px;
     background-color: #f54748;
-    width: 85px;
+    width: 105px;
+    height: 50px;
 }
 
 .redesSociales{
@@ -247,3 +249,134 @@ h3:hover{
     background-color: #c4c4c4;
     padding: 25px;
 }
+
+/*FORMULARIO DE CONTACTO*/
+
+    .contact_form{  
+        width: 460px; 
+        height: auto;
+        margin: 80px auto;
+        border-radius: 10px;  
+        padding-top: 30px;
+        padding-bottom: 20px;  
+        background-color: #fbfbfb; 
+        padding-left: 30px; 
+    }
+    
+    
+    input{
+        background-color: #fbfbfb; 
+        width: 408px; 
+        height: 40px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: #f54748; 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px; 
+    }
+    
+    
+    textarea{
+        background-color: #fbfbfb; 
+        width: 405px; 
+        height: 150px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: #0e0e0e; 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px; 
+        padding-top: 15px; 
+    }
+    
+    
+    label{
+        display: block; 
+        float: center;  
+    }
+    
+    
+    button{
+        height: 45px; 
+        padding-left: 5px;
+        padding-right: 5px;   
+        margin-bottom: 20px; 
+        margin-top: 10px;   
+        text-transform: uppercase;
+        background-color: #8f8f8f; 
+        border-color: #0e0e0e; 
+        border-style: solid; 
+        border-radius: 10px;  
+        width: 420px;   
+        cursor: pointer;
+    }
+    
+    
+    button p{
+        color: #fff; 
+    }
+    
+    
+    span{
+        color: #8f8f8f; 
+    }
+    
+    
+    .aviso{
+        font-size: 13px;  
+        color: #0e0e0e;  
+    }
+    
+    
+    h1{
+        font-size: 39px;  
+        text-align: letf; 
+        padding-bottom: 20px; 
+        color: #0e0e0e;
+    }
+    
+    
+    h3{
+        font-size: 16px; 
+        padding-bottom: 30px;
+        color: #0e0e0e;   
+    }
+    
+    .escribenos{
+        font-size: 16px; 
+        padding-bottom: 30px;
+        color: #0e0e0e;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 2px;
+    }
+
+    .parrafoContacto{
+        font-size: 14px; 
+        color: #0e0e0e; 
+    }
+    
+    
+    ::-webkit-input-placeholder {
+    color: #a8a8a8;
+    }
+    
+    
+    ::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+    }
+    
+    
+    .formulario input:focus{
+        outline:0;
+        border: 1px solid #97d848;
+    }
+    
+    
+    .formulario textarea:focus{
+        outline:0;
+        border: 1px solid #97d848;
+    }

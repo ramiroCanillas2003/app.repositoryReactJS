@@ -1,27 +1,38 @@
-import React from "react";
 import ReactDOM from 'react-dom/client';
+import React from "react";
 import Nabvar from "./Componentes/NavBar.js";
-import Section from './Componentes/Section.js';
-import Article from "./Componentes/Article.js";
-import Catalogo from "./Componentes/Catalogo.js";
-import Footer from "./Componentes/Footer.js";
+import Home from "./Componentes/Home.js";
+import ItemListContainer from "./Componentes/ItemListContainer.js"
+import Article from './Componentes/Article.js';
+import Carrito from './Componentes/Carrito.js';
+import Contacto from './Componentes/Contacto.js';
 import "./estilos.css"
+import { Routes , Route, Router } from "react-router-dom"
 
 
 function App() {
 
     return (
-        <>  
-            <Nabvar/>
-            <Section/>
-            <Article 
-            frase="Conoce aún más"
-            />
-            
-            <Catalogo/>
-            <Footer/>
+        <>
+            <Routes>
+
+                <Route path='/' element={<Nabvar/>}>
+                    <Route path='/home' element={<Home/>}></Route>
+                    
+                    <Route path='/catalogo' element={<ItemListContainer/>}></Route>
+
+                    <Route path='/catalogo/:nombreProducto' element={<ItemListContainer/>}></Route>
+
+                    <Route path='/contacto' element={<Contacto/>}></Route>
+
+                    <Route path='/containerArticle' element={<Article/>}></Route>
+
+                    <Route path='/carrito' element={<Carrito/>}></Route>
+                </Route>
+
+            </Routes>
         </>
-    )
+    )        
 }
 
 export default App;
