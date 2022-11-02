@@ -32,11 +32,11 @@ a{
 }
 
 a:hover{
-    text-decoration: underline;
+    text-decoration: underline red;
 }
 
 .aDos:hover{
-    text-decoration: underline;
+    text-decoration: underline #000218;
 }
 
 .logo{
@@ -198,7 +198,8 @@ h3:hover{
     font-family: fantasy;
     text-align: center;
     position: relative;
-    left: 50px;
+    left: 320px;
+    bottom: 95px;
 }
 
 .titulosPrecios{
@@ -206,7 +207,7 @@ h3:hover{
     font-family: fantasy;
     position: relative;
     left: 320px;
-    top: -80px;
+    top: -120px;
 }
 
 .titulosPrecios12{
@@ -214,7 +215,7 @@ h3:hover{
     font-family: fantasy;
     position: relative;
     left: 320px;
-    top: -61px;
+    top: -100px;
 }
 
 .verMas{
@@ -225,6 +226,12 @@ h3:hover{
     height: 50px;
 }
 
+.verMas:hover{
+    background-color: #000016;
+    color: #f3f3f3;
+    text-decoration: overline red;
+}
+
 .redesSociales{
     display: flex;
     justify-content: center;
@@ -233,6 +240,7 @@ h3:hover{
 
 .tituloRedes{
     background-color: #010716f1;
+    color: white;
     font-family: monospace;
     width: 500px;
     position: relative;
@@ -248,6 +256,28 @@ h3:hover{
 .footer{
     background-color: #c4c4c4;
     padding: 25px;
+}
+
+.cargandoItem{
+    position: relative;
+    top: 400px;
+    left: 900px;
+}
+
+.divDetail{
+    background-color: #030329;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    width: 700px;
+    margin: 20px;
+    position: relative;
+    left: 520px;
+}
+
+.imageDetail{
+    width: 700px;
+    height: 800px;
 }
 
 /*FORMULARIO DE CONTACTO*/

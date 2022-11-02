@@ -1,5 +1,6 @@
 import React from "react";
 import { VscFile } from "react-icons/vsc";
+import Footer from "./Footer";
 
 function Article(prop) {
     
@@ -7,7 +8,7 @@ function Article(prop) {
 
     return (
         <>
-            <a href="https://www.lipsum.com/" className="infoAdicional"><p><VscFile/> {infoAdicional}</p></a>
+            <a href="https://www.lipsum.com/" className="infoAdicional"><p><VscFile/>{infoAdicional}</p></a>
             <article id="article" className="articlePrincipal">
             <div id="containerArticle" className="containerArticle">
                 <div className="containerHijo">
@@ -31,6 +32,14 @@ function Article(prop) {
                 </div>        
             </div>
             </article>
+
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            <Footer/>
         </>
     )
 }

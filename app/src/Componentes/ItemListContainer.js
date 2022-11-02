@@ -38,7 +38,7 @@ const ItemListContainer = () => {
     
 
     return(
-        <div>{ items.length == 0 ? <h2>cargando...</h2> : <ItemList items={items}/> }</div>
+        <div>{ items.length == 0 ? <h2 className="cargandoItem">cargando...</h2> : <ItemList items={items}/> }</div>
     )
 
 }

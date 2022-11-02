@@ -11,6 +11,7 @@ import { AiOutlineInsertRowRight } from "react-icons/ai"
 import { AiOutlineTeam } from "react-icons/ai"
 import { Link } from "react-router-dom"
 import { Outlet } from "react-router-dom"
+import { AiOutlineApple } from "react-icons/ai"
 
 
 function NavBar() {
@@ -32,12 +33,12 @@ function NavBar() {
             <nav className="navSecundario">
                 <ul>
                     <li>
-                        <Link to="/catalogo/Iphone13" className="aDos" id="envios"><AiOutlineCompass/> Iphone 13 </Link>
-                        <Link to="/catalogo/Iphone12" className="aDos" id="devoluciones"><AiFillInteraction/> Iphone 12</Link>
-                        <Link to="/contacto" className="aDos" id="contacto"><AiOutlineUser/> Contacto</Link>
-                        <Link to="/catalogo/MacBook" className="aDos" id="redes-sociales"><AiOutlineHeart/> Mac Book</Link>
-                        <Link to="/catalogo/AppleWatch" className="aDos" id=""><AiOutlineInsertRowRight/> Apple Watch</Link>
-                        <Link to="/catalogo/Cargador" className="aDos" id="info"><AiOutlineTeam/> Cargador</Link>
+                        <Link to="/catalogo/Iphone13" className="aDos" id="envios">|<AiOutlineApple/>Iphone 13|</Link>
+                        <Link to="/catalogo/Iphone12" className="aDos" id="devoluciones">|<AiOutlineApple/>Iphone 12|</Link>
+                        <Link to="/contacto" className="aDos" id="contacto">|<AiOutlineUser/>Contacto|</Link>
+                        <Link to="/catalogo/MacBook" className="aDos" id="redes-sociales">|<AiOutlineApple/>Mac Book|</Link>
+                        <Link to="/catalogo/AppleWatch" className="aDos" id="">|<AiOutlineApple/>Apple Watch|</Link>
+                        <Link to="/catalogo/Cargador" className="aDos" id="info">|<AiOutlineApple/>Cargador|</Link>
                     </li>
                 </ul>
             </nav>   

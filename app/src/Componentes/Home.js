@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 function Home() {
 
@@ -29,6 +30,10 @@ function Home() {
                     <img className="imagenesContainer" src="https://inversian.com/wp-content/uploads/2016/09/que-es-reembolso-2.jpg"></img>
                 </div>     
             </div>
+            <br/>
+            <br/>
+            <br/>
+            <Footer/>
         </>
     )
 }
