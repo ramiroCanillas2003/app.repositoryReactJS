@@ -16,7 +16,6 @@ function App() {
     return (
         <>
             <Routes>
-
                 <Route path='/' element={<Nabvar/>}>
                     <Route path='/home' element={<Home/>}></Route>
                     <Route path='/catalogo' element={<ItemListContainer/>}></Route>
@@ -26,7 +25,6 @@ function App() {
                     <Route path='/containerArticle' element={<Article/>}></Route>
                     <Route path='/carrito' element={<Carrito/>}></Route>
                 </Route>
-
             </Routes>
         </>
     )        
